@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #ecedf0;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: rgb(141, 118, 223);
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+
+.card {
+   background-color: rgb(199, 116, 116);
+   padding: 20px;
+   margin-top: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2 style="color: white">CODING WITH HTML AND CSS</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 style="color: white">Blog 01</h2>
+      <img  src="d:\Downloads\download.jpg" style="width: 800px; height: 600px">
+      <h5>Coding with html </h5>
+      <p>Coding with html and CSS was definitely and interesting experience, it was fun experimenting with different fonts, sizes, colours, backgrounds, etc. The list goes on.  </p>
+      <P>The very concept that we would be creating and hosting our own websites instilled a sense of thrill in our fragile hearts, we were eager to learn. <br> </P>
+    </div>
+    <div class="card">
+      <h2 style="color: white">Blog 02</h2>
+     
+      <h5>Web hosting with IIS and Apache</h5>
+      <p>We learned how to host ur very own website using IIS (Internet Information Services), and with apache as well. We learned what IIS was and host a static website through IIS </p>
+      <p>Hosing with Apache required us to turn off the IIS feature, we learned that having IIS would interfere with the APACHE server because only one service can use the ports (80 and 443) required for hosting </p>
+      <p></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 style="color: white">About Us</h2>
+      <img src="d:\Downloads\slu.jpg" style="width: 400px; height: 200px">
+      <p>We are Team 06 from class CS 312, and are currently enrolled in Saint Louis University.</p>
+    </div>
+    
+    
+  </div>
+</div>
+
+<footer>
+    <p style="text-align: center">Created by Team 06</p>
+    
+</footer>
+
+</body>
+</html>
