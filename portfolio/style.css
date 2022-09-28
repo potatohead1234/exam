@@ -112,3 +112,7 @@ img {
 .more a:hover {
   color: #777;
 }
+
+#header h1{
+margin: 10px;
+}
